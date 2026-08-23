@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo": "registered-intangible-cultural-properties",
+    "name": "登録無形文化財",
+    "category": {
+      "code": "323",
+      "name": "登録無形文化財"
+    },
+    "kinds": []
+  },
+  "source": {
+    "name": "国指定文化財等データベース",
+    "publisher": "文化庁",
+    "url": "https://kunishitei.bunka.go.jp/",
+    "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
+    "accessed_date": "2026-08-23",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月23日に利用）\n上記を加工して作成"
+  },
+  "generator": {
+    "name": "heritage-crawler",
+    "version": "0.1.0"
+  },
+  "counts": {
+    "records": 7,
+    "files": 1,
+    "with_coordinates": 0
+  },
+  "labels": {
+    "ledger_id": "台帳ID",
+    "managed_id": "管理対象ID",
+    "category_code": "分類コード",
+    "category_name": "分類",
+    "url": "詳細ページ",
+    "name": "名称",
+    "name_kana": "ふりがな",
+    "types": "種別",
+    "notes": "その他参考となるべき事項",
+    "designation_kind": "指定・登録・選定の別",
+    "certification_class": "認定区分",
+    "designated_date": "登録年月日",
+    "criteria": "登録基準",
+    "description": "解説文",
+    "detailed_description": "詳細解説",
+    "holders": "保持者・保持団体",
+    "holders.alias": "団体情報の代表者雅号等",
+    "holders.alias_kana": "団体情報の代表者雅号等 ふりがな",
+    "holders.date": "認定・指定年月日",
+    "holders.name": "団体情報の名称",
+    "holders.name_kana": "団体情報の名称 ふりがな",
+    "holders.representative": "団体情報の代表者氏名",
+    "holders.representative_kana": "団体情報の代表者氏名 ふりがな",
+    "has_attachment": "添付ファイルの有無",
+    "has_photo": "写真の有無"
+  },
+  "fields": {
+    "ledger_id": 7,
+    "managed_id": 7,
+    "category_code": 7,
+    "category_name": 7,
+    "url": 7,
+    "name": 7,
+    "name_kana": 7,
+    "types": 7,
+    "notes": 1,
+    "designation_kind": 7,
+    "certification_class": 7,
+    "designated_date": 7,
+    "criteria": 7,
+    "description": 7,
+    "detailed_description": 7,
+    "holders": 7,
+    "has_attachment": 7,
+    "has_photo": 7
+  },
+  "facets": {
+    "types": {
+      "生活文化": 7,
+      "食文化": 5,
+      "生活文化（食文化を除く）": 2
+    },
+    "criteria": {
+      "（二）生活文化に係る歴史上の意義を有するもの": 7,
+      "（一）芸術上の価値の高いもの": 5
+    },
+    "designation_kind": {
+      "登録": 7
+    }
+  },
+  "files": [
+    {
+      "path": "data/99_unspecified.jsonl",
+      "area_code": "99",
+      "area_name": "地域を定めない",
+      "records": 7
+    }
+  ]
+}
